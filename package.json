@@ -1,0 +1,21 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test",
+    "testFile-specific": "npx playwright test --grep asana.spec.js",
+    "test-tag": "npx playwright test --grep @asana",
+    "report": " npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3",
+    "dotenv": "^16.4.7"
+  }
+
+}
