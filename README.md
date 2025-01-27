@@ -52,6 +52,3 @@ Install the following extensions for a better development experience:
 - npm Intellisense
 - NPM Run
 - Playwright Snippets
-
-## Author
-Filiz - [Filiz](https://github.com/FilizDargin)
